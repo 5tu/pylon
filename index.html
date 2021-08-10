@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>Pylon Films</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="css/splide-pylontheme.min.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 
     <div id="image-slider" class="splide">
@@ -26,16 +28,21 @@
     </div>
 
     <script>
-    document.addEventListener( 'DOMContentLoaded', function () {
-        new Splide( '#image-slider',
-        {
-        width: '100vw',
-        'cover'      : true,
-		'heightRatio': 0.5,
-        'pagination': false,
-        } ).mount();
-    } );
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-slider', {
+                width: '50vw',
+                'cover': true,
+                'heightRatio': 0.5,
+                'pagination': false,
+                breakpoints: {
+                1024: {
+                    width: '100vw',
+                },
+            }
+            }).mount();
+        });
     </script>
 
-  </body>
+</body>
+
 </html>
