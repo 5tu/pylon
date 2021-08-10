@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pylon Films</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/splide.min.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <div id="image-slider" class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <img src="images/pylon_door.jpg">
+                </li>
+                <li class="splide__slide">
+                    <img src="images/pylon_slate.jpg">
+                </li>
+                <li class="splide__slide">
+                    <img src="images/pylon_office.jpg">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+        new Splide( '#image-slider',
+        {
+        width : '50vw',
+		height: '50vh',
+        'cover'      : true,
+		'heightRatio': 0.5,
+        } ).mount();
+    } );
+    </script>
+
+  </body>
+</html>
