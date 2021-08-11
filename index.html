@@ -9,29 +9,23 @@
 
 <body>
 
-    <div class="mango">
-        <p>
-            <img id ="7stg" src ="images/1.jpg" onclick = "chImg()"/>
-        </p>
+    <div class="siteContainer">
+
+        <div class="imageContainer">
+            <img class="pineapple" id="7stg" src="images/1.jpg" onclick="chImg()" />
+        </div>
+
     </div>
 
     <script>
-        var image =  document.getElementById("7stg");
+        var image = document.getElementById("7stg");
 
-        function chImg()
-        {
-            if (image.getAttribute('src') == "images/1.jpg")
-            {
+        function chImg() {
+            if (image.getAttribute('src') == "images/1.jpg") {
                 image.src = "images/2.jpg";
-            }
-            
-            else if (image.getAttribute('src') == "images/2.jpg")
-            {
+            } else if (image.getAttribute('src') == "images/2.jpg") {
                 image.src = "images/3.jpg";
-            }
-
-            else
-            {
+            } else {
                 image.src = "images/1.jpg";
             }
         }

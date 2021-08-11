@@ -1,3 +1,29 @@
-.mango {
-
+@media only screen and (max-width: 800px) {
+    .siteContainer{
+        width: 90vw;
+        margin: auto;
+        border: 3px solid #73AD21;
+    }
 }
+
+@media only screen and (min-width: 800px) {
+    .siteContainer{
+        width: 75vw;
+        margin: auto;
+        border: 3px solid #e7400c;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .siteContainer{
+        width: 50vw;
+        margin: auto;
+        border: 3px solid #0ce7dc;
+    }
+}
+
+.pineapple{
+    max-width:100%;
+    max-height:100%;
+}
+
