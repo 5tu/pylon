@@ -1,16 +1,3 @@
-body {
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-    font-size: x-small;
-    text-align: center;
-    color: lightgray;
-}
-
-a {
-    color:lightgray;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 @media only screen and (max-width: 800px) {
     .siteContainer{
         width: 90vw;
@@ -33,6 +20,19 @@ a {
         height: 100vh;
         margin: auto;
     }
+}
+
+body {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-size: x-small;
+    text-align: center;
+    color: lightgray;
+}
+
+a {
+    color:lightgray;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .imageContainer{
