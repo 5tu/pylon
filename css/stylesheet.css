@@ -8,7 +8,7 @@
 
 @media only screen and (min-width: 800px) {
     .siteContainer{
-        width: 75vw;
+        width: 90vw;
         height: auto;
         margin: auto;
     }
@@ -37,7 +37,7 @@ a {
 
 .imageContainer{
     position: relative;
-    padding-top: 5em;
+    padding-top: 4vh;
     width: 100%;
     height: calc(width * 0.66);
 }
@@ -53,6 +53,7 @@ a {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: white;
     padding-bottom: 1em;
 }
 
