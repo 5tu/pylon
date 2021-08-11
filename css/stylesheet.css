@@ -1,7 +1,7 @@
 @media only screen and (max-width: 800px) {
     .siteContainer{
         width: 90vw;
-        height: 100vh;
+        height: auto;
         margin: auto;
     }
 }
@@ -9,7 +9,7 @@
 @media only screen and (min-width: 800px) {
     .siteContainer{
         width: 75vw;
-        height: 100vh;
+        height: auto;
         margin: auto;
     }
 }
@@ -17,7 +17,7 @@
 @media only screen and (min-width: 1024px) {
     .siteContainer{
         width: 50vw;
-        height: 100vh;
+        height: auto;
         margin: auto;
     }
 }
