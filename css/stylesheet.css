@@ -1,5 +1,9 @@
+:root {
+    --RAL1016: #f1dd38;
+}
+
 @media only screen and (max-width: 800px) {
-    .siteContainer{
+    .siteContainer {
         width: 90vw;
         height: auto;
         margin: auto;
@@ -7,7 +11,7 @@
 }
 
 @media only screen and (min-width: 800px) {
-    .siteContainer{
+    .siteContainer {
         width: 90vw;
         height: auto;
         margin: auto;
@@ -15,7 +19,7 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    .siteContainer{
+    .siteContainer {
         width: 50vw;
         height: auto;
         margin: auto;
@@ -23,29 +27,33 @@
 }
 
 body {
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-    font-size: x-small;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: small;
     text-align: center;
     color: lightgray;
 }
 
 a {
-    color:lightgray;
+    color: lightgray;
     text-decoration: underline;
     cursor: pointer;
 }
 
-.imageContainer{
+a:hover {
+    color: var(--RAL1016);
+}
+
+.imageContainer {
     position: relative;
     padding-top: 4vh;
     width: 100%;
     height: calc(width * 0.66);
 }
 
-.imageSlideshow{
-    width:100%;
+.imageSlideshow {
     width: 100%;
-    object-fit:fill;
+    width: 100%;
+    object-fit: fill;
     cursor: pointer;
 }
 

@@ -5,17 +5,40 @@
     <meta charset="UTF-8">
     <title>Pylon Films</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
-
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+         :root {
+            --RAL1016: #f1dd38;
+        }
+        
         body {
             font-family: 'IBM Plex Sans', sans-serif;
+            text-align: center;
+            font-size: large;
+            color: black;
+        }
+        
+        .box {
+            position: relative;
+            padding-top: 4vh;
+        }
+        
+        a {
+            color: black;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            color: var(--RAL1016);
         }
     </style>
 
 </head>
 
 <body>
-Hello, world.
+    <div class="box">
+        <p>Pylon Films Limited trading as Pylon.<br> Registered in England and Wales.<br> Company Number: 12937107.<br> Registered Office: 31 Cattle Market Street,<br> Norwich, Norfolk, NR1 3DY, United Kingdom.</p>
+        <p><a href=index.html>Return to homepage</a></p>
+    </div>
 </body>
 
 </html>
