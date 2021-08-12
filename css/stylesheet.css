@@ -69,10 +69,10 @@ a:hover {
     width: 2.5em;
     height: auto;
     opacity: 15%;
-    padding-inline: 1em;
+    padding: 2em;
 }
 
 .socialIcons:hover {
-    opacity: 25%;
     cursor: pointer;
+    opacity: 30%;
 }
