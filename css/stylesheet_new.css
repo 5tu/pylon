@@ -1,0 +1,72 @@
+:root {
+    --RAL1016: #f1dd38;
+    --PRINTBLACK: #2b2b2b;
+    --PRINTWHITE: #ffffffe8;
+}
+
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(7440%) hue-rotate(61deg) brightness(104%) contrast(112%);
+}
+
+img {
+    max-width: 100%;
+}
+
+.flexbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.flexbox-item {
+    align-self: center;
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.logo-center {
+    width: 25vh;
+}
+
+.button-left {
+    background-color: var(--RAL1016);
+}
+
+.button-left:hover {
+    background-color: var(--PRINTBLACK);
+    color: var(--PRINTWHITE);
+    cursor: pointer;
+}
+
+.button-right {
+    background-color: var(--RAL1016);
+}
+
+.button-right:hover {
+    background-color: var(--PRINTBLACK);
+    color: var(--PRINTWHITE);
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    text-align: center;
+    color: var(--PRINTWHITE);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("/images/splash.jpg");
+}
+
+.button-text {
+    font-size: x-large;
+    font-weight: 800;
+    color: var(--PRINTBLACK);
+}
