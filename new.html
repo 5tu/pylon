@@ -12,17 +12,32 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function($) {
+            $(".divClickable").click(function() {
+                window.location = $(this).find("a").attr("href");
+                return false;
+            });
+        });
+    </script>
 </head>
 
 <body>
 
     <div class="flexbox-container">
 
-        <div class="flexbox-item button-left button-text">Films</div>
+        <div class="flexbox-item button-left button-text divClickable">Films
+            <a href="films.html"></a>
+        </div>
 
         <div class="flexbox-item logo-center"><img src="/images/pylon_logo.svg" class="filter-white"></div>
 
-        <div class="flexbox-item button-right button-text">About</div>
+        <div class="flexbox-item button-right button-text divClickable">About
+            <a href="about.html"></a>
+        </div>
 
     </div>
 
