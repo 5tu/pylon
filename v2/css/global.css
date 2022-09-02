@@ -31,7 +31,7 @@ a:hover {
   color: var(--RAL1016);
 }
 
-.legal { #1#
+.legal {
   font-family: 'Inter', sans-serif;
   font-size: small;
   color: #c0c0c0;
@@ -39,7 +39,7 @@ a:hover {
   width: 50vw;
 }
 
-.flex-slides { #2#
+.flex-slides {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -47,7 +47,7 @@ a:hover {
   padding: 2em;
 }
 
-.flex-text-content { #3#
+.flex-text-content {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -55,7 +55,7 @@ a:hover {
   padding: 2em;
 }
 
-.flex-nav { #4#
+.flex-nav {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -67,19 +67,19 @@ a:hover {
   border: 0em;
 }
 
-.flex-nav a { #5#
+.flex-nav a {
   color: var(--PRINTBLACK);
   text-decoration: none;
   border: 0em;
 }
 
-.flex-nav a:hover { #6#
-  color:#f1dd38;
+.flex-nav a:hover {
+  color: #f1dd38;
   text-decoration: none;
   border: 0em;
 }
 
-.flex-legal { #7#
+.flex-legal {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -87,12 +87,12 @@ a:hover {
   margin-top: auto;
 }
 
-.blurb { #8#
+.blurb {
   font-size: x-large;
   width: 50vw;
 }
 
-.banner-img { #9#
+.banner-img {
   width: 50vw;
 }
 
@@ -102,19 +102,19 @@ video {
 }
 
 @media only screen and (max-width: 999px) {
-  .banner-img { #10#
+  .banner-img {
     width: 80vw;
   }
 
-  .blurb { #11#
+  .blurb {
     width: 90vw;
-  }
+}
 
-  .legal { #12#
-    width: 90vw;
-  }
+.legal {
+  width: 90vw;
+}
 
-  video {
-    width: 80vw;
-  }
+video {
+  width: 80vw;
+}
 }
