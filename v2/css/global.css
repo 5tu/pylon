@@ -31,7 +31,7 @@ a:hover {
   color: var(--RAL1016);
 }
 
-.legal {
+.legal { #1#
   font-family: 'Inter', sans-serif;
   font-size: small;
   color: #c0c0c0;
@@ -39,7 +39,7 @@ a:hover {
   width: 50vw;
 }
 
-.flex-slides {
+.flex-slides { #2#
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -47,7 +47,7 @@ a:hover {
   padding: 2em;
 }
 
-.flex-text-content {
+.flex-text-content { #3#
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -55,7 +55,7 @@ a:hover {
   padding: 2em;
 }
 
-.flex-nav {
+.flex-nav { #4#
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -67,19 +67,19 @@ a:hover {
   border: 0em;
 }
 
-.flex-nav a {
+.flex-nav a { #5#
   color: var(--PRINTBLACK);
   text-decoration: none;
   border: 0em;
 }
 
-.flex-nav a:hover {
+.flex-nav a:hover { #6#
   color:#f1dd38;
   text-decoration: none;
   border: 0em;
 }
 
-.flex-legal {
+.flex-legal { #7#
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -87,12 +87,12 @@ a:hover {
   margin-top: auto;
 }
 
-.blurb {
+.blurb { #8#
   font-size: x-large;
   width: 50vw;
 }
 
-.banner-img {
+.banner-img { #9#
   width: 50vw;
 }
 
@@ -102,15 +102,15 @@ video {
 }
 
 @media only screen and (max-width: 999px) {
-  .banner-img {
+  .banner-img { #10#
     width: 80vw;
   }
 
-  .blurb {
+  .blurb { #11#
     width: 90vw;
   }
 
-  .legal {
+  .legal { #12#
     width: 90vw;
   }
 
