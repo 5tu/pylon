@@ -3,50 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Pylon Films</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-    </style>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Pylon</title>
+
+    <link rel="stylesheet" href="css/global.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+
+    <script src="https://kit.fontawesome.com/3d5a882645.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-    <div class="siteContainer">
-
-        <div class="imageContainer">
-            <img class="imageSlideshow" id="7stg" src="images/1.jpg" onclick="chImg()" />
-        </div>
+    <div class="flex-slides">
+        <a href="slate.html"><img class="banner-img" src="images/pylon-door-min.jpg"></a>
     </div>
 
-    <div class="footer">
-        <p>
-            <a href="https://instagram.com/pylonfilms" target="_blank"><img class="socialIcons" src="images/instagram.svg" alt="Instagram"></a>
-            <a href="https://vimeo.com/pylonfilms" target="_blank"><img class="socialIcons" src="images/vimeo.svg" alt="Vimeo"></a>
-        </p>
-        <p>
-            <a href="legal.html">Legal information</a>
-        </p>
+    <div class="flex-nav">
+        <a href="watch.html"><i class="fa-solid fa-arrow-left fa-xl"></i></a>
+        &emsp;
+        <a href="about.html"><span class="text-link"><u>About Pylon</u></span></a>
+        &emsp;
+        <a href="slate.html"><i
+                class="fa-solid fa-arrow-right fa-xl"></i></a>
     </div>
-
-
-    <script>
-        var image = document.getElementById("7stg");
-
-        function chImg() {
-            if (image.getAttribute('src') == "images/1.jpg") {
-                image.src = "images/2.jpg";
-            } else if (image.getAttribute('src') == "images/2.jpg") {
-                image.src = "images/1.jpg";
-            } else {
-                image.src = "images/1.jpg";
-            }
-        }
-    </script>
 
 </body>
 
